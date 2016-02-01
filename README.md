@@ -4,6 +4,6 @@ A CSPRNG (cryptographically secure random number generation) module for Garry's 
 
 ### Usage
 ```lua
-require("cryptrand")
+require("cryptrandom")
 print(CryptRandom()) -- prints a value between 0.0 and 1.0
 ```
