@@ -1,0 +1,4 @@
+cryptrand/lib
+cryptrand/linux-gmake
+cryptrand/macosx-gmake
+cryptrand/windows-vs2010
