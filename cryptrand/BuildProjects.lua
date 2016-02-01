@@ -5,6 +5,10 @@ solution "gmsv_cryptrandom"
 	flags { "Symbols", "NoEditAndContinue", "NoPCH", "StaticRuntime", "EnableSSE" }
 	targetdir ( "lib/" .. os.get() .. "/" )
 	includedirs { "../include/" }
+
+	if os.is("linux") then
+		buildoptions "-std=c++0x"
+	end
 	
 	configurations
 	{ 
